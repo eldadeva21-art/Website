@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVS – Servis Makina Elektrike</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <h2>EVS</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Shërbimet</a></li>
+    <li><a href="#booking">Rezervo</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>EVS – Shërbimi Profesional për Makina Elektrike</h1>
+    <p>Riparime, diagnostikim dhe mirëmbajtje për automjetet tuaja elektrike</p>
+    <a href="#booking" class="btn-primary">Rezervo Takim</a>
+  </div>
+</section>
+
+<!-- Shërbimet -->
+<section id="services" class="services">
+    <h2>Shërbimet tona</h2>
+    <div class="service-grid">
+      <div class="card">
+        <img src="images/foto1.jpg" alt="Diagnostikim">
+        <h3>Diagnostikim EV</h3>
+        <p>Kontroll i plotë dhe diagnostikim për automjetet elektrike.</p>
+      </div>
+      <div class="card">
+        <img src="images/foto2.jpeg" alt="Riparim">
+        <h3>Riparim Bateri</h3>
+        <p>Shërbime të specializuara për bateritë e automjeteve.</p>
+      </div>
+      <div class="card">
+        <img src="images/foto3.jpeg" alt="Mirëmbajtje">
+        <h3>Mirëmbajtje</h3>
+        <p>Riparime dhe mirëmbajtje për performancë optimale.</p>
+      </div>
+      <div class="card">
+        <img src="images/foto4.jpeg" alt="Sistemet">
+        <h3>Sistemet e Ngrohjes & Ftohjes</h3>
+        <p>Kontroll dhe mirëmbajtje e HVAC, pompave të ftohjes për bateri dhe sistemit të kondicionimit elektrik. </p>
+      </div>
+      <div class="card">
+        <img src="images/foto5.jpeg" alt="Motori Elektrik & Transmisioni">
+        <h3>Motori Elektrik & Transmisioni</h3>
+        <p>Riparimi i motorëve elektrikë, invertorëve dhe pjesëve të brendshme të transmisionit për performancë të lartë.</p>
+      </div>
+      <div class="card">
+        <img src="images/foto6.jpeg" alt="Sistemet e Karikimit">
+        <h3>Sistemet e Karikimit</h3>
+        <p>Kontroll dhe riparim i portave të karikimit, kabllove dhe wallbox për karikim të sigurt dhe efikas.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+
+<!-- Rezervo Takim -->
+<section id="booking" class="booking">
+  <h2>Rezervo Takim në EVS</h2>
+  <form id="bookingForm">
+    <input type="text" name="name" placeholder="Emri juaj" required>
+    <input type="tel" name="phone" placeholder="Numri telefonit" required>
+    <input type="date" name="date" required>
+    <button type="submit">Dërgo kërkesën</button>
+  </form>
+  <p id="formMessage"></p>
+</section>
+
+<!-- Harta -->
+<section class="map-section">
+  <h2>Na gjeni këtu</h2>
+  <div class="map-container">
+    <iframe
+      src="https://maps.google.com/maps?q=41.389950,19.636000&hl=al&z=16&output=embed"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </div>
+  <p>
+    <a href="https://maps.google.com/?q=41.389950,19.636000" target="_blank">
+      Shiko EVS në Google Maps
+    </a>
+  </p>
+</section>
+
+<!-- Kontakt -->
+<section id="contact" class="contact">
+  <h2>Kontakto EVS</h2>
+  <p>📞 Telefon 1: <a href="tel:+355693994514">0693994514</a></p>
+  <a href="https://wa.me/355693994514" target="_blank" class="whatsapp-btn">
+    📱 WhatsApp
+  </a>
+  <p>📞 Telefon 2: <a href="tel:+355693863678">0693863678</a></p>
+  <a href="https://wa.me/355693863678" target="_blank" class="whatsapp-btn">
+    📱 WhatsApp
+  </a>
+  <p>✉ Email: <a href="mailto:eldadeva21@gmail.com">eldadeva21@gmail.com</a></p>
+  <p>📍 Adresa: Rruga Vorë‑Marikaj, Vorë</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
